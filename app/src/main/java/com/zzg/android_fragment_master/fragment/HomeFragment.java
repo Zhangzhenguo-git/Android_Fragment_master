@@ -85,8 +85,10 @@ public class HomeFragment extends ToFragment {
                 //片段间数据共享，没琢磨透
 //                Uri noteUri= ContentUris.withAppendedId(ArticleColumns.CONTENT_URI,id);
                 //接口跳转
-                Fragment fragment=new BlankFragment();
-                onFragemtnHomeInteractionListener.onFragmentInteraction(fragment);
+//                Fragment fragment=new BlankFragment();
+//                onFragemtnHomeInteractionListener.onFragmentInteraction(fragment);
+//                Fragment框架跳转
+                start(BlankFragment.newInstance());
             }
         });
     }

@@ -13,6 +13,7 @@ import android.view.ViewGroup;
 
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
+import me.yokeyword.fragmentation.SupportFragment;
 import me.yokeyword.fragmentation_swipeback.SwipeBackFragment;
 
 /**
@@ -21,7 +22,7 @@ import me.yokeyword.fragmentation_swipeback.SwipeBackFragment;
  * @Email 18311371235@163.com
  * @Describe
  */
-public abstract class BaseFragment extends Fragment implements BaseViewInterface{
+public abstract class BaseFragment extends SupportFragment implements BaseViewInterface{
     private static final String TAG="BaseFragment";
     private View contentView;
 

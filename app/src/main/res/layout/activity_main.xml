@@ -10,7 +10,14 @@
     <FrameLayout
         android:id="@+id/fl_Main_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_weight="1">
     </FrameLayout>
+    <Button
+        android:id="@+id/bt_StartFragment"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:text="Fragment跳转"/>
 
 </LinearLayout>
